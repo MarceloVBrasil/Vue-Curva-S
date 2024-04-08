@@ -75,4 +75,12 @@ const chartData = ref(chartConfig);
 .real {
   background-color: #000;
 }
+
+@media screen and (width < 550px) {
+  .legenda-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+}
 </style>
